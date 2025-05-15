@@ -22,7 +22,7 @@ let elMain = document.createElement("main")
 let elHeroSection = document.createElement("section")
 document.body.appendChild(elMain)
 elMain.appendChild(elHeroSection)
-elHeroSection.className = "flex gap-[28px] items-center"
+elHeroSection.className = "flex items-center bg-[#F4F5F7] "
 
 elHeroSection.innerHTML = `
     <div class="containers w-[447px]">
@@ -35,10 +35,10 @@ elHeroSection.innerHTML = `
       </div>
       <div class="relative w-[800px] h-[800px] overflow-hidden">
         <img src="./images/hero-bg-desktop@2x.png" alt="Background Phone"
-          class="absolute top-0 left-0 w-[1000px] h-[1000px] object-cover z-0">
+          class="absolute top-0 left-0 w-[800px] h-[660px] object-cover z-0">
 
         <img src="./images/hero-phones-desktop.png" alt="Foreground Phones"
-          class="absolute top-0 right-0 w-[670px] object-contain z-10 transform -translate-y-[90px]">
+          class="absolute top-0 right-0 w-[618px] object-contain z-10 transform -translate-y-[70px]">
       </div>
 
 `
